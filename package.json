@@ -1,0 +1,26 @@
+{
+  "name": "xm-technical-task",
+  "version": "1.0.0",
+  "description": "Responsive page for XM. It is the technical task assigned by XM as part of the hiring process",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "sass src/scss:assets/css",
+    "watch:sass": "sass --watch src/scss:assets/css"
+  },
+  "keywords": [
+    "XM",
+    "technical-task",
+    "responsive-page",
+    "bootstrap"
+  ],
+  "author": "Vangelis Bousios",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.58.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.3.0",
+    "bootstrap": "^5.2.3"
+  }
+}
