@@ -41,6 +41,11 @@
 	max-width: 1400px;
 	left: -50px;
 }
+.zero-swaps .zero-swaps__img--vector {
+	max-width: 100%;
+	top: 600px;
+	
+}
 
 @media (min-width: 1280px) {
 .zero-swaps .zero-swaps__img--xl {
@@ -77,6 +82,134 @@
 	font-weight: 700;
 	line-height: 21px;
 
+}
+
+// Why trade section styles
+
+#why_trade hr {
+	margin: auto;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	width: 70px;
+	border-color: #29A643;
+	border-top: 2px solid #29A643;
+
+}
+#why_trade .row hr {
+	margin-left: 1rem;
+	width: 50px;
+
+}
+
+#why_trade {
+
+	background: url(../images/gold.png) -205px top no-repeat;
+}
+
+@media (min-width:768px){
+#why_trade .row hr {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+
+}
+
+.trade-card .trade-card__img {
+	max-width: 85px;
+}
+.trade-card .trade-card__heading {
+	max-width: 175px;
+}
+.trade-card .trade-card__usp {
+	max-width: 305px;
+}
+}
+
+@media (min-width: 1200px) {
+
+	.trade-card  {
+	border: 10px solid transparent;
+}
+
+	.trade-card .trade-card__img {
+	max-width: 70px;
+}
+	.trade-card	.trade-card__img--percent {
+	max-width: 90px;
+	}
+	.trade-card	.trade-card__img--fast {
+	max-width: 205px;
+	transform: translateX(-80px);
+	}
+
+.trade-card .trade-card__heading {
+	max-width: 225px;
+}
+.trade-card .trade-card__usp {
+	max-width: 225px;
+}
+
+}
+
+
+//  Form styles
+
+.register .register__item {
+	max-width: 260px;
+}
+
+.register .register__item--clock, .register .register__item--calen {
+	border-bottom: 1px solid #fff;
+}
+
+li {
+	font-size: 10px;
+	color:#888888;
+}
+
+#login-form button {
+	width: 95%;
+}
+
+
+#success-message {
+
+	background: #f3fef4;
+	color: #3C763D;
+}
+
+.success-message .success-message__heading {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+@media (min-width: 768px) {
+
+li {
+	font-size: 14px;
+}
+
+.register .register__item {
+	border: 1px solid #fff;
+}
+
+.register .register__item--calen {
+	border-left: 0;
+}
+
+.register .register__item--map {
+	border-right: 0;
+}
+
+.success-message .success-message__heading {
+	font-size: 24px;
+	}
+
+}
+
+@media (min-width: 1200px) {
+	#login-form button {
+	max-width: 345px;
+}
 }
 
 
