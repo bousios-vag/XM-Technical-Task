@@ -5,5 +5,99 @@
 
 // CUSTOM CSS RULES
 
+// Hero section
+
+@media (min-width: 768px){
+	.hero-wrapper {
+		max-width: 70%;
+
+}
+}
+
+@media (min-width: 1200px){
+	.hero-wrapper {
+		max-width: 50%;
+
+}
+}
 
 
+// Background images styles
+.zero-swaps .zero-swaps__img {
+  max-width: 120%;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: -20%;
+  opacity: 0.7;
+}
+
+.zero-swaps .zero-swaps__img--md {
+	max-width: 919px;
+	opacity: 0.3;
+	left: -54px;
+}
+.zero-swaps .zero-swaps__img--xl {
+	max-width: 1400px;
+	left: -50px;
+}
+
+@media (min-width: 1280px) {
+.zero-swaps .zero-swaps__img--xl {
+	max-width: 100%;
+	right:0;
+}
+}
+
+
+
+// Crypto section styles
+.cryptos .cryptos_wrapper {
+	border: 0.871376px solid rgba(167, 167, 167, 0.2);
+	border-radius: 13.0706px;
+	background: rgba(140, 140, 140, 0.1);
+}
+
+.cryptos .cryptos__img {
+
+	max-width: 35px;	
+}
+
+.cryptos .cryptos__name {
+	font-size: 8px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #000;
+	background: #FFF8D6;
+	border-radius: 3.5px;
+}
+
+.cryptos .cryptos__price {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21px;
+
+}
+
+
+
+// Slider box 
+.box {
+	min-height: 100px;
+	min-width: 100px;
+}
+
+@media (min-width: 768px) {
+.box {
+	min-height: 130px;
+	min-width: 130px;
+}
+
+}
+@media (min-width: 1200px) {
+.box {
+	min-height: 160px;
+	min-width: 160px;
+}
+
+}
